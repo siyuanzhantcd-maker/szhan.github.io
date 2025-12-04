@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
-    {% seo %}
+<meta charset="UTF-8">
+<title>{{ page.title }} | {{ site.title }}</title>
+<link rel="stylesheet" href="/assets/css/style.css">
+{% seo %}
 </head>
 <body>
 <header>
 <nav class="navbar">
-  <div class="nav-title">{{ site.title }}</div>
-  <ul class="nav-menu">
-  {% for item in site.navbar %}
-  <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-  {% endfor %}
-  </ul>
+<div class="nav-title">{{ site.title }}</div>
+<ul class="nav-menu">
+{% for item in site.navbar %}
+<li><a href="{{ item.link }}">{{ item.name }}</a></li>
+{% endfor %}
+</ul>
 </nav>
 </header>
-
+<div class='banner'></div>
 <main class="content">
 {{ content }}
 </main>

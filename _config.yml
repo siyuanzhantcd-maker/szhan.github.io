@@ -1,7 +1,7 @@
 title: "Siyuan Zhan"
 description: "Assistant Professor in Control Engineering, Trinity College Dublin"
 baseurl: ""
-url: "https://szhan.github.io"
+url: "https://szhantcd.github.io"
 
 theme: minima
 markdown: kramdown

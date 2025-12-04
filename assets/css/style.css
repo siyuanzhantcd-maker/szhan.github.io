@@ -1,16 +1,8 @@
-body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
-  background: #fafafa;
-  margin: 0;
-}
-.navbar {
-  background: #003b6f;
-  padding: 10px 20px;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-}
-.nav-menu { list-style:none; display:flex; gap:20px; }
-.nav-menu li a { color:white; text-decoration:none; }
-.content { max-width:900px; margin:40px auto; }
-.profile-img { width:160px; float:right; border-radius:8px; }
+body {font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;margin:0;background:#fafafa;}
+.navbar {background:#003b6f;padding:10px 20px;color:white;display:flex;justify-content:space-between;}
+.nav-menu {list-style:none;display:flex;gap:20px;}
+.nav-menu li a {color:white;text-decoration:none;}
+.content {max-width:1000px;margin:40px auto;padding:0 20px;}
+.photo-container {display:flex;gap:30px;align-items:flex-start;margin-top:20px;}
+.profile-img {width:200px;height:auto;border-radius:0;object-fit:cover;}
+.banner {width:100%;height:260px;background-image:url('/assets/img/banner.jpg');background-size:cover;background-position:center;border-bottom:4px solid #003b6f;margin-bottom:20px;}
